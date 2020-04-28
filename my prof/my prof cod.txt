@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>profile</title>
+	<meta name="description" content="sample profile">
+	<link rel="icon" type="image/jpg" href="cg.jpg">
+
+</head>
+<body>
+  <section>
+   <h1>somebody's profile</h1>
+   <a href="#pic">Her pic</a>
+     <br>
+   <a href="#song">Fav song</a>
+     <br>
+   <a href="#video">Fav video</a>
+     <br>
+   <a href="#information">Information</a>
+   <br>
+   <a href="#w3">fav website</a>
+  </section>
+     <br>
+     <hr>
+     <br>
+  <section id="pic">
+      <h2>her pic</h2>
+      <figure>
+	    <img src="girl.jpg" alt="child img" width="20%">
+	    <figcaption>when she was 5 year's old</figcaption>
+      </figure>
+   </section>
+       <br>
+       <hr>
+       <br>
+   <section id="song">  
+      <h2>fav song</h2>
+      <audio src="Always_Be_There.mp3" controls=""></audio>
+   </section>
+       <br>
+       <hr>
+       <br>
+   <section id=video>
+      <h2>fav video</h2>
+      <video src="ya.mp4" width="200" controls ></video>
+   </section>
+	   <br>
+       <hr>
+       <br>
+ <section id="information">
+  <table border="1" width="300">
+    <caption>information</caption>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+       <th colspan="2">lang</th>
+       <th colspan="2">pro lang</th>
+     </tr>
+   </thead>
+   <tbody>
+      <tr>
+ 	   <td>nour</td>
+       <td>19</td>
+       <td>Arabic</td>
+       <td>English</td>
+       <td>c++</td>
+       <td>html</td>
+      </tr>
+      <tr>
+ 	   <td>sama</td>
+       <td>19</td>
+       <td>Arabic</td>
+       <td>English</td>
+       <td>c++</td>
+       <td>html</td>
+      </tr>
+   </tbody>
+   <tfoot>
+     <tr>
+ 	   <td>menna</td>
+       <td>18</td>
+       <td>Arabic</td>
+       <td>English</td>
+       <td>c++</td>
+       <td>c#</td>
+      </tr>   
+   </tfoot>
+  </table>
+ </section>
+     <br><hr><br>
+  <section id=w3>
+  	<h2>fav website</h2>
+  	<iframe name="w3" src="https://www.w3.org" width="400" height="400"></iframe>
+  </section>
+ </body>
+</html>
